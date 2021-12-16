@@ -16,7 +16,7 @@ bool zombieHere[6];
 plant(*plantLocation)[9] = new plant[6][9]();
 int x = 0, y = 0;
 int plantChoice = 0;
-int sunshine=50000;
+int sunshine=50;
 plant* plantHead = new plant;
 std::list<zombie> zombielist;
 int plantPrice[4] = { 50,100,200,50 };
